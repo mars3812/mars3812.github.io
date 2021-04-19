@@ -21,7 +21,7 @@ if (!localStorage.getItem('name')){
     setUserName();
 } else {
     let storedName=localStorage.getItem('name');
-    myHeading.textContent='Robotopia , '+storedName;
+    myHeading.textContent='RoboTopia , '+storedName;
 }
 }
 myButton.onclick = function() {
