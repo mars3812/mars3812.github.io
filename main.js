@@ -1,10 +1,10 @@
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/arduino-img.png') {
-        myImage.setAttribute('src','images/arduino-2.png');
+    if (mySrc === 'arduino-img.png') {
+        myImage.setAttribute('src','arduino-2.png');
     } else {
-        myImage.setAttribute('src','images/arduino-img.png');
+        myImage.setAttribute('src','arduino-img.png');
     }
 }
 let myButton = document.querySelector('button');
